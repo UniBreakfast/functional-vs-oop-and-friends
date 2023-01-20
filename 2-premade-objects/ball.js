@@ -1,6 +1,8 @@
-import { diameter, x, y, speed, width, height } from './config.js'
+import config from './config.js'
 import { ballStyle, glareStyle } from './styles.js'
 import { arrowKeysHandlers } from './handlers.js'
+
+const { diameter, x, y, speed } = config
 
 export const ball = {
   setUp() {

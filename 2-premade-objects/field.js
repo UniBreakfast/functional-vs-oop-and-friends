@@ -1,5 +1,7 @@
-import { width, height, border } from './config.js'
+import config from './config.js'
 import { fieldStyle } from './styles.js'
+
+const { width, height, border } = config
 
 export const field = {
   setUp(...items) {
